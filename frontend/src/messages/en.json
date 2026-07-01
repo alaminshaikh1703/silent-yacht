@@ -1,0 +1,29 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "tours": "Tours",
+    "cabins": "Cabins",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "book_now": "Book Now"
+  },
+  "Hero": {
+    "headline": "Experience the Serenity of the Sundarbans",
+    "subheadline": "A Premium Yacht Experience",
+    "cta_primary": "Explore Tours",
+    "cta_secondary": "View Cabins"
+  },
+  "Stats": {
+    "guests": "Happy Guests",
+    "tours": "Tours Completed",
+    "yachts": "Premium Yachts",
+    "years": "Years Experience"
+  },
+  "Common": {
+    "read_more": "Read More",
+    "view_details": "View Details",
+    "submit": "Submit",
+    "loading": "Loading..."
+  }
+}
