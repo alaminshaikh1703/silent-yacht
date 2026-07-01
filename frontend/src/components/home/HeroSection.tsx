@@ -14,8 +14,8 @@ export default function HeroSection({ heroData, statistics }: { heroData?: any, 
   const rawHeadline = heroData?.headline?.[locale] || t("headline");
   const subheadline = heroData?.subheadline?.[locale] || t("subheadline");
   
-  const mediaType = heroData?.media?.type || "image";
-  const bgMedia = heroData?.media?.url || "/images/hero_yacht.png";
+  const mediaType = heroData?.media?.type || "video";
+  const bgMedia = heroData?.media?.url || "/images/0623(2).mp4";
 
   // Highlight the last word of the headline in accent color
   const words = rawHeadline.split(' ');
