@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = await getBlogPost(slug);
+  let post = await getBlogPost(slug);
 
   if (!post) {
     // If not found in DB, fallback for the static demo posts or return 404
